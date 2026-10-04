@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141615">
+  <meta name="description" content="PactChain on-chain escrow. Connect your wallet, lock test ETH, deliver milestones, resolve disputes and withdraw payments.">
+  <title>Workspace · PactChain</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/workspace.css">
+</head>
+<body>
+  <a class="skip-link" href="#workspace-main">Skip to workspace</a>
+  <div id="workspace"></div>
+  <dialog id="agreement-dialog" class="deal-dialog" aria-labelledby="deal-heading"></dialog>
+  <dialog id="create-dialog" aria-labelledby="create-heading"></dialog>
+  <dialog id="action-dialog" aria-labelledby="action-heading"></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript>Enable JavaScript to use the PactChain workspace.</noscript>
+  <script type="module" src="/src/workspace.js"></script>
+</body>
+</html>
