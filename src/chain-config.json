@@ -1,0 +1,22 @@
+{
+  "defaultNetwork": "localhost",
+  "networks": {
+    "localhost": {
+      "name": "Local Hardhat",
+      "chainId": 31337,
+      "rpcUrl": "http://127.0.0.1:8545",
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "deploymentBlock": 1,
+      "explorer": "",
+      "deploymentTx": "0x98ab503d3c4b0d901a9641e5a246fe61fc63072fedb7be1d2286722fc7474f9e"
+    },
+    "sepolia": {
+      "name": "Sepolia",
+      "chainId": 11155111,
+      "rpcUrl": "https://ethereum-sepolia-rpc.publicnode.com",
+      "address": "",
+      "deploymentBlock": 0,
+      "explorer": "https://sepolia.etherscan.io"
+    }
+  }
+}
